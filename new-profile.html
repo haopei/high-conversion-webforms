@@ -7,44 +7,44 @@
 
   </head>
   <body>
-    <h1>Create New User</h1>
-    <form action="#">
-      <div class="form-item">
-        <label for="fname">First Name</label>
-        <input type="text" name="fname" id="fname" autocomplete="fname" required autofocus>
-      </div>
+    <a href="index.html">home</a>
+    <div class="form-box">
+      <div class="form-box-inner">
+        <h1>Create New User</h1>
+        <form action="#">
+          <div class="form-item">
+            <label for="fullName">Full Name</label>
+            <input type="text" name="name" id="fullName" autocomplete="name" placeholder="Full Name" required autofocus>
+          </div>
 
-      <div class="form-item">
-        <label for="lname">Last Name</label>
-        <input type="text" name="lname" id="lname" autocomplete="lname" required>
-      </div>
+          <div class="form-item">
+            <label for="birthDate">Date of Birth</label>
+            <input type="date" name="birthDate" id="birthDate" autocomplete="bday" placeholder="Date of Birth" required>
+          </div>
 
-      <div class="form-item">
-        <label for="birthDate">Date of Birth</label>
-        <input type="date" name="birthDate" id="birthDate" autocomplete="bday" required>
-      </div>
+          <div class="form-item">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" autocomplete="email" placeholder="you@example.com" required>
+          </div>
 
-      <div class="form-item">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email" autocomplete="email" required>
-      </div>
+          <div class="form-item">
+            <label for="emailConfirm">Email Confirm</label>
+            <input type="email" name="emailConfirm" id="emailConfirm" autocomplete="email" required>
+          </div>
 
-      <div class="form-item">
-        <label for="emailConfirm">Email Confirm</label>
-        <input type="email" name="emailConfirm" id="emailConfirm" required>
-      </div>
+          <div class="form-item">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" maxlength="10" placeholder="at least 10 characters" required>
+          </div>
+          <div class="form-item">
+            <label for="passwordConfirm">Password Confirm</label>
+            <input type="password" name="passwordConfirm" id="passwordConfirm" maxlength="10" placeholder="" required>
+          </div>
 
-      <div class="form-item">
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password" maxlength="10" required>
-      </div>
-      <div class="form-item">
-        <label for="passwordConfirm">Password Confirm</label>
-        <input type="password" name="passwordConfirm" id="passwordConfirm" maxlength="10" required>
-      </div>
+          <button>Submit</button>
+        </form>
 
-      <button>Submit</button>
-
-    </form>
+      </div>
+    </div>
   </body>
 </html>
