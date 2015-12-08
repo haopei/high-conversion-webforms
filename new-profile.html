@@ -63,13 +63,23 @@
           </div>
 
           <div class="form-item">
+            <label for="website">Your website</label>
+            <input type="url" name="website" id="website" max="9" placeholder="www.example.com" required>
+          </div>
+
+          <div class="form-item">
             <label for="favNumber">Favourite Number Below 10</label>
             <input type="number" name="favNumber" id="favNumber" max="9" placeholder="Favourite Number" required>
           </div>
 
           <div class="form-item">
             <label for="getupTime">What time do you wake up?</label>
-            <input type="time" name="getupTime" id="getupTime" placeholder="HH:MM:SS" required>
+            <input type="time" name="getupTime" id="getupTime" placeholder="HH:MM AM/PM" required>
+          </div>
+
+          <div class="form-item">
+            <label for="showerFrequency">How many times do you shower per day?</label>
+            <input type="range" min="0" step="2" max="10" name="showerFrequency" id="showerFrequency" required>
           </div>
 
 
