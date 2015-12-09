@@ -17,7 +17,13 @@ label {
   padding-left: 1px;
 }
 
-input {
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="url"],
+input[type="number"],
+input[type="date"],
+input[type="time"] {
   width: 100%;
   padding: 3px 7px;
   height: 20px;

@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>High Conversion Forms</title>
+    <title>New Profile - High Conversion Forms</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style/main.css">
-
   </head>
   <body>
     <a href="index.html">home</a>
@@ -82,9 +81,21 @@
             <input type="range" min="0" step="2" max="10" name="showerFrequency" id="showerFrequency" required>
           </div>
 
+          <div class="form-item">
+            <label>Highest level of education?
+            <input list="educationLevels" name="educationLevels"></label>
+            <datalist id="educationLevels">
+              <option value="Primary School"></option>
+              <option value="High School"></option>
+              <option value="Some College"></option>
+              <option value="College"></option>
+              <option value="Post Graduate"></option>
+
+            </datalist>
+          </div>
 
 
-          <button>Submit</button>
+          <button>Create New Account</button>
         </form>
 
       </div>
